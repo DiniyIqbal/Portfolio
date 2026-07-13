@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of Mohamad Diniy Iqbal Bin Mohd Dariff - Information System Management Student seeking an IT Internship.">
+    <meta name="author" content="Mohamad Diniy Iqbal Bin Mohd Dariff">
+    <title>Mohamad Diniy Iqbal | Information System Management Portfolio</title>
+    
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- BACKGROUND BLOCKS (For Premium Ambient Glow) -->
+    <div class="ambient-glow bg-glow-1"></div>
+    <div class="ambient-glow bg-glow-2"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header">
+        <div class="nav-container">
+            <!-- EDIT HERE: Logo Name / Brand -->
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>
+                Diniy Iqbal
+                <span class="logo-accent"> /&gt;</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#awards" class="nav-link">Awards</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Actions (Theme Toggle & Mobile Menu) -->
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i data-lucide="moon" class="icon-moon"></i>
+                    <i data-lucide="sun" class="icon-sun"></i>
+                </button>
+                
+                <button id="mobileMenuToggle" class="mobile-toggle-btn" aria-label="Toggle Menu">
+                    <i data-lucide="menu" class="icon-menu"></i>
+                    <i data-lucide="x" class="icon-close"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HOME / HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <!-- Status Badge -->
+                    <div class="status-badge scroll-reveal">
+                        <span class="pulse-indicator"></span>
+                        <!-- EDIT HERE: Internship availability status -->
+                        <span>Available for IT Internship (Sept 2026 - Feb 2027)</span>
+                    </div>
+
+                    <!-- Main Greeting & Name -->
+                    <!-- EDIT HERE: Replace "John Doe" with your actual name -->
+                    <h1 class="hero-title scroll-reveal delay-1">
+                        Hi, I'm <span class="highlight-text">Diniy Iqbal</span>
+                    </h1>
+
+                    <!-- Dynamic Role Tagline -->
+                    <!-- EDIT HERE: Customize your target roles/major -->
+                    <h2 class="hero-subtitle scroll-reveal delay-2">
+                        Information System Management Student
+                    </h2>
+
+                    <p class="hero-description scroll-reveal delay-3">
+                        Information Systems Management undergraduate at UiTM seeking an internship opportunity within the IT department of a banking institution or any related field. Possesses foundational knowledge in database management, system analysis, web development, and business process improvement. Eager to contribute technical and analytical skills while gaining practical experience in financial technology and enterprise information systems.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta-group scroll-reveal delay-4">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <!-- The CV Button: previews the PDF resume in a new tab -->
+                        <a id="downloadCvBtn" href="assets/diniy_cv.pdf" target="_blank" class="btn btn-secondary">
+                            <i data-lucide="eye"></i>
+                            <span>Preview CV</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Graphic / Decorative Board -->
+                <div class="hero-graphic scroll-reveal delay-3">
+                    <div class="graphic-card profile-card">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="card-title">diniy_profile.jpg</span>
+                        </div>
+                        <div class="card-body-profile">
+                            <img src="assets/diniy_profile.jpg" alt="Mohamad Diniy Iqbal" class="profile-img">
+                            <div class="profile-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info scroll-reveal">
+                        <!-- EDIT HERE: About me paragraphs -->
+                        <h3>Bridging Technology and Business Processes</h3>
+                        <p class="about-text">
+                            I am Mohamad Diniy Iqbal, an Information Systems Management student at Universiti Teknologi MARA (UiTM). My studies and projects focus on leveraging web development, database management systems, and analytical methodologies to design solutions that optimize workflows and support strategic decision-making.
+                        </p>
+                        <p class="about-text">
+                            I have built full-stack web applications using PHP and MySQL, designed databases with solid design principles (normalization, relational integrity), and handled spatial data analysis using Geographic Information Systems (GIS). I am eager to apply my technical skillset to real-world business challenges.
+                        </p>
+                        
+                        <div class="info-meta-list">
+                            <div class="meta-item">
+                                <i data-lucide="map-pin"></i>
+                                <span><strong>Location:</strong> Kota Bharu, Kelantan (Relocation open)</span>
+                            </div>
+                            <div class="meta-item">
+                                <i data-lucide="calendar"></i>
+                                <span><strong>Internship Period:</strong> 1 Sept 2026 – 12 Feb 2027</span>
+                            </div>
+                            <div class="meta-item">
+                                <i data-lucide="briefcase"></i>
+                                <span><strong>Preferred Sector:</strong> IT Department, Banking Industry</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Highlight Cards -->
+                    <div class="about-cards scroll-reveal delay-2">
+                        <div class="info-card">
+                            <div class="card-icon-wrapper">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <h4>Academic Standout</h4>
+                            <p class="card-stat">3.62 CGPA</p>
+                            <p class="card-label">Bachelor Degree (Active)</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="card-icon-wrapper">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <h4>Diploma Foundation</h4>
+                            <p class="card-stat">3.40 CGPA</p>
+                            <p class="card-label">Diploma in Info Management</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EDUCATION SECTION -->
+        <section id="education" class="education-section section-padding section-bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline scroll-reveal">
+                    <!-- Bachelor Degree -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">03/2025 – 02/2027</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Bachelor in Information System Management</h3>
+                                    <span class="institution">Universiti Teknologi MARA (UiTM) • Machang, Kelantan</span>
+                                </div>
+                                <span class="badge badge-success">Active Student</span>
+                            </div>
+                            <p class="education-desc">
+                                Focusing on systems analysis and design, database management systems, advanced web application development, and business process modeling.
+                            </p>
+                            <div class="education-highlights">
+                                <span><strong>Cumulative GPA:</strong> 3.62 / 4.00</span>
+                                <span><strong>Dean's List:</strong> Multiple Semesters</span>
+                            </div>
+                            
+                            <h4 class="sub-timeline-title">Core Focus & Coursework:</h4>
+                            <ul class="course-list">
+                                <li>System Analysis & Design (SDLC)</li>
+                                <li>Web Systems Development (PHP, MySQL, HTML, CSS, JS)</li>
+                                <li>Database Design, Queries & Normalization</li>
+                                <li>Geographic Information Systems (GIS)</li>
+                                <li>Enterprise Information Systems</li>
+                                <li>Data Analytics & Business Intelligence</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Diploma Degree -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">09/2022 – 02/2025</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Diploma in Information Management</h3>
+                                    <span class="institution">Universiti Teknologi MARA (UiTM) • Machang, Kelantan</span>
+                                </div>
+                                <span class="badge badge-secondary" style="background-color: rgba(100, 116, 139, 0.1); color: var(--text-muted); border: 1px solid var(--border-color);">Graduated</span>
+                            </div>
+                            <p class="education-desc">
+                                Built solid foundation in web design, information systems management, records management, and basic database operations.
+                            </p>
+                            <div class="education-highlights">
+                                <span><strong>Cumulative GPA:</strong> 3.40 / 4.00</span>
+                                <span><strong>Dean's List:</strong> Awarded</span>
+                            </div>
+                            
+                            <h4 class="sub-timeline-title">Core Focus & Coursework:</h4>
+                            <ul class="course-list">
+                                <li>Introduction to Web Development</li>
+                                <li>Database Systems & Design</li>
+                                <li>Information Systems Management</li>
+                                <li>Records & Documentation Systems</li>
+                                <li>System Architecture Foundations</li>
+                                <li>Administrative Technology & Tools</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SKILLS SECTION -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I bring to the table</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skills-card scroll-reveal">
+                        <div class="skills-header">
+                            <i data-lucide="code-2"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>HTML & CSS</span> <span class="skill-pct">90%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>PHP</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>JavaScript</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: Database -->
+                    <div class="skills-card scroll-reveal delay-1">
+                        <div class="skills-header">
+                            <i data-lucide="database"></i>
+                            <h3>Database Systems</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>MySQL</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Database Design & ERD</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>SQL CRUD Operations</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Web Development -->
+                    <div class="skills-card scroll-reveal delay-2">
+                        <div class="skills-header">
+                            <i data-lucide="globe"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>Full-Stack Web Dev</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Responsive Web Design</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>REST-Style Workflow</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4: System Skills -->
+                    <div class="skills-card scroll-reveal delay-3">
+                        <div class="skills-header">
+                            <i data-lucide="cpu"></i>
+                            <h3>System Engineering</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>Systems Analysis & Design</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>User Auth & Session Mgmt</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Testing & Debugging</span> <span class="skill-pct">75%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 5: Frameworks & Tools -->
+                    <div class="skills-card scroll-reveal">
+                        <div class="skills-header">
+                            <i data-lucide="layers"></i>
+                            <h3>Frameworks & Tools</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>Bootstrap</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>VS Code & GitHub</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>XAMPP & phpMyAdmin</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 6: Analytics -->
+                    <div class="skills-card scroll-reveal delay-1">
+                        <div class="skills-header">
+                            <i data-lucide="bar-chart-2"></i>
+                            <h3>Data Analytics</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>Power BI Dashboarding</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Excel Analytics</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>SQL Analytics</span> <span class="skill-pct">80%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 7: Soft Skills -->
+                    <div class="skills-card scroll-reveal delay-2">
+                        <div class="skills-header">
+                            <i data-lucide="users"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <ul class="skills-list-items">
+                            <li>
+                                <div class="skill-info"><span>Problem-Solving & Critical Thinking</span> <span class="skill-pct">90%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Team Collaboration</span> <span class="skill-pct">90%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info"><span>Communication & Documentation</span> <span class="skill-pct">85%</span></div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROJECTS SECTION -->
+        <section id="projects" class="projects-section section-padding section-bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic & Personal Projects</span>
+                    <h2 class="section-title">Academic Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: UiTM Talent Placement System -->
+                    <article class="project-card scroll-reveal">
+                        <div class="project-img-placeholder">
+                            <i data-lucide="user-check" class="project-placeholder-icon"></i>
+                            <div class="project-tag">Talent Management System</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">04/2026 – 06/2026</span>
+                            <h3>UiTM Talent Placement System</h3>
+                            <p class="project-desc">
+                                Conducted requirements gathering and system analysis, designed relational database schemas, and built modules for application submission, approval workflows, and administrative reporting applying SDLC concepts.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/#" target="_blank" rel="noopener" class="project-link-btn">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Flavour's Hub -->
+                    <article class="project-card scroll-reveal delay-1">
+                        <div class="project-img-container">
+                            <img src="assets/flavours-hub.png" alt="Flavour's Hub Interface">
+                            <div class="project-tag">Online Food & Loyalty System</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">10/2025 – 12/2025</span>
+                            <h3>Flavour's Hub</h3>
+                            <p class="project-desc">
+                                Full-stack web application featuring secure authentication, cart transactions, real-time tracking, gamified loyalty rewards system (points, leaderboards), and a central admin management dashboard.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/#" target="_blank" rel="noopener" class="project-link-btn">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+ 
+                    <!-- Project 3: UiTM Students Withdrawal System -->
+                    <article class="project-card scroll-reveal delay-2">
+                        <div class="project-img-container">
+                            <img src="assets/student-withdrawal.png" alt="Student Withdrawal System Interface">
+                            <div class="project-tag">Administrative Portal</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">09/2025 – 11/2025</span>
+                            <h3>UiTM Students Withdrawal System</h3>
+                            <p class="project-desc">
+                                Web-based portal designed to automate student withdrawal workflows, replacing paper-based systems. Integrates secure role authentication, full CRUD operations, and Bootstrap-based responsive layouts.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/#" target="_blank" rel="noopener" class="project-link-btn">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+ 
+                    <!-- Project 4: Sport Facility Booking System -->
+                    <article class="project-card scroll-reveal">
+                        <div class="project-img-container">
+                            <img src="assets/uitm-sports.png" alt="Sport Facility Booking System Interface">
+                            <div class="project-tag">Reservation & Scheduling System</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">08/2025 – 10/2025</span>
+                            <h3>Sport Facility & Equipment Booking</h3>
+                            <p class="project-desc">
+                                Centralized reservation platform using multi-tier authentication. Implemented database transaction management with strict ACID properties to ensure concurrency control and structured indexation for secure reporting.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/#" target="_blank" rel="noopener" class="project-link-btn">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: COVID-19 Selangor Analysis -->
+                    <article class="project-card scroll-reveal delay-1">
+                        <div class="project-img-placeholder">
+                            <i data-lucide="bar-chart-2" class="project-placeholder-icon"></i>
+                            <div class="project-tag">Power BI & Data Analytics</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">08/2025 – 09/2025</span>
+                            <h3>COVID-19 Selangor Trends</h3>
+                            <p class="project-desc">
+                                Spatial and temporal trend dashboard using public health records. Features a 4-stage cleaning/transforming data pipeline, and spatial statistical metrics (LISA Index, cluster types) to detect infection hotspots.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Power BI</span>
+                                <span>Data Cleaning</span>
+                                <span>Excel</span>
+                                <span>Statistical Modeling</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 6: World Store -->
+                    <article class="project-card scroll-reveal delay-2">
+                        <div class="project-img-placeholder">
+                            <i data-lucide="shopping-bag" class="project-placeholder-icon"></i>
+                            <div class="project-tag">E-Commerce Web App</div>
+                        </div>
+                        <div class="project-details">
+                            <span class="timeline-date" style="font-size: 0.8rem; margin-bottom: 4px;">09/2025 – 10/2025</span>
+                            <h3>World Store</h3>
+                            <p class="project-desc">
+                                Responsive online store featuring catalog navigation, mock authentication, interactive cart management, and front-end form validations. Hosted and version-controlled via GitHub Pages.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>GitHub Pages</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/#" target="_blank" rel="noopener" class="project-link-btn">
+                                    <i data-lucide="github"></i>
+                                    <span>Code</span>
+                                </a>
+                                <a href="#" class="project-link-btn disabled">
+                                    <i data-lucide="external-link"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. INTERNSHIP / WORK EXPERIENCE SECTION -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Work & Academic Roles</span>
+                    <h2 class="section-title">Internship & Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="experience-grid">
+                    <!-- EDIT HERE: Internship Target/Timeline card -->
+                    <div class="experience-card target-card scroll-reveal">
+                        <div class="experience-header">
+                            <div class="icon-glow">
+                                <i data-lucide="sparkles"></i>
+                            </div>
+                            <h3>Target Internship Placement</h3>
+                        </div>
+                        <div class="experience-body">
+                            <div class="target-period">
+                                <i data-lucide="calendar"></i>
+                                <span><strong>Period:</strong> 1 September 2026 - 12 February 2027</span>
+                            </div>
+                            <div class="target-industry">
+                                <i data-lucide="landmark"></i>
+                                <span><strong>Preferred Industry:</strong> Banking & Financial IT Systems</span>
+                            </div>
+                            <div class="target-objective">
+                                <h5>Objective:</h5>
+                                <p>
+                                    Seeking to apply Information Systems analysis, database operations, and web systems development knowledge in a structured corporate environment. Intrigued by the banking industry's digital security, transactional databases, and user-facing portals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Experience Card -->
+                    <div class="experience-card scroll-reveal delay-2">
+                        <div class="experience-header">
+                            <div class="icon-glow">
+                                <i data-lucide="briefcase"></i>
+                            </div>
+                            <div>
+                                <h3>Internship (Technical & Enforcement)</h3>
+                                <span class="institution">Pejabat Tanah & Jajahan Kota Bharu</span>
+                            </div>
+                        </div>
+                        <div class="experience-body">
+                            <div class="target-period" style="margin-bottom: 8px;">
+                                <i data-lucide="calendar"></i>
+                                <span><strong>Period:</strong> 07/2024 – 09/2024</span>
+                            </div>
+                            <div class="target-period" style="margin-bottom: 16px;">
+                                <i data-lucide="map-pin"></i>
+                                <span><strong>Location:</strong> Kota Bharu, Kelantan</span>
+                            </div>
+                            <div class="history-item">
+                                <ul style="list-style-type: disc; padding-left: 20px; font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px;">
+                                    <li>Utilized <strong>Geographic Information System (GIS)</strong> to locate, analyze, and measure land parcels, supporting land ownership verification and technical assessments.</li>
+                                    <li>Managed and verified spatial and land-related data by updating digital records and ensuring the accuracy and consistency of GIS information.</li>
+                                    <li>Assisted in processing technical documentation and land records, maintaining secure digital and physical documentation in accordance with government procedures.</li>
+                                    <li>Collaborated with technical officers to support land management and enforcement operations while using Microsoft Office and government systems to prepare reports.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- [NEW] AWARDS SECTION -->
+        <section id="awards" class="awards-section section-padding section-bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Honors</span>
+                    <h2 class="section-title">Awards & Achievements</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+                    <!-- Award 1: March 2026 -->
+                    <div class="experience-card scroll-reveal">
+                        <div class="experience-header">
+                            <div class="icon-glow">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <div>
+                                <h3 style="font-size: 1.2rem;">Dean's List</h3>
+                                <span class="institution" style="font-size: 0.9rem;">Universiti Teknologi MARA (UiTM)</span>
+                            </div>
+                        </div>
+                        <div class="experience-body">
+                            <div class="target-period" style="margin-bottom: 12px;">
+                                <i data-lucide="calendar"></i>
+                                <span><strong>Date:</strong> 03/2026</span>
+                            </div>
+                            <div class="target-objective" style="margin-top: 16px; padding: 16px; background-color: var(--bg-secondary);">
+                                <p style="font-size: 0.85rem; line-height: 1.6;">
+                                    Maintained a high GPA (3.59) while managing rigorous coursework in Information System Management, demonstrating strong analytical thinking, time management, and a commitment to academic excellence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Award 2: August 2025 -->
+                    <div class="experience-card scroll-reveal delay-2">
+                        <div class="experience-header">
+                            <div class="icon-glow">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <div>
+                                <h3 style="font-size: 1.2rem;">Dean's List</h3>
+                                <span class="institution" style="font-size: 0.9rem;">Universiti Teknologi MARA (UiTM)</span>
+                            </div>
+                        </div>
+                        <div class="experience-body">
+                            <div class="target-period" style="margin-bottom: 12px;">
+                                <i data-lucide="calendar"></i>
+                                <span><strong>Date:</strong> 08/2025</span>
+                            </div>
+                            <div class="target-objective" style="margin-top: 16px; padding: 16px; background-color: var(--bg-secondary);">
+                                <p style="font-size: 0.85rem; line-height: 1.6;">
+                                    Awarded for achieving an exemplary academic record (GPA 3.67) while consistently demonstrating strong research, analytical, and problem-solving skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Let's build a connection</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards / Social Info -->
+                    <div class="contact-info scroll-reveal">
+                        <h3>Get In Touch</h3>
+                        <p class="contact-text">
+                            I am open to internship opportunities, student projects, or general inquiries. Reach out via email, phone, or connect with me on GitHub and LinkedIn.
+                        </p>
+
+                        <!-- EDIT HERE: Your direct contact information -->
+                        <div class="contact-details-list">
+                            <a href="mailto:mdiniyiqbal123@gmail.com" class="contact-detail-card">
+                                <div class="detail-icon"><i data-lucide="mail"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Email Me</span>
+                                    <span class="detail-value">mdiniyiqbal123@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+601157349423" class="contact-detail-card">
+                                <div class="detail-icon"><i data-lucide="phone"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Call / WhatsApp</span>
+                                    <span class="detail-value">+60 11-5734 9423</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-detail-card">
+                                <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Current Address</span>
+                                    <span class="detail-value">Kota Bharu, Kelantan, Malaysia</span>
+                                </div>
+                            </div>
+
+                            <!-- Academic Reference Card -->
+                            <div class="contact-detail-card" style="align-items: flex-start; flex-direction: column; gap: 8px;">
+                                <div style="display: flex; align-items: center; gap: 8px; width: 100%;">
+                                    <div class="detail-icon"><i data-lucide="user-check"></i></div>
+                                    <span class="detail-label" style="margin-top: 2px;">Academic Reference</span>
+                                </div>
+                                <div style="padding-left: 44px; display: flex; flex-direction: column; gap: 4px;">
+                                    <span class="detail-value" style="font-weight: 600; font-size: 0.95rem;">Siti Aishah Binti Mokhtar</span>
+                                    <span class="detail-value" style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.3;">Internship Supervisor, Universiti Teknologi MARA Cawangan Kelantan Kampus Machang</span>
+                                    <span class="detail-value" style="font-size: 0.85rem; color: var(--text-muted);">Email: aishah835@uitm.edu.my</span>
+                                    <span class="detail-value" style="font-size: 0.85rem; color: var(--text-muted);">Phone: +60 13-386 9763</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Socials -->
+                        <div class="socials-container">
+                            <a href="https://github.com/#" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/#" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container scroll-reveal delay-2">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="formName">Your Name</label>
+                                <input type="text" id="formName" name="name" required placeholder="Jane Smith">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="formEmail">Your Email</label>
+                                <input type="email" id="formEmail" name="email" required placeholder="jane@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formSubject">Subject</label>
+                                <input type="text" id="formSubject" name="subject" required placeholder="Internship Application Inquiry">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formMessage">Message</label>
+                                <textarea id="formMessage" name="message" rows="5" required placeholder="Dear Mohamad Diniy, I would like to discuss a potential internship opportunity at our IT Department..."></textarea>
+                            </div>
+
+                            <button type="submit" id="formSubmitBtn" class="btn btn-primary btn-block">
+                                <i data-lucide="send"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Mohamad Diniy Iqbal Bin Mohd Dariff. All rights reserved. Designed for IT Internship Applications.</p>
+            <div class="footer-links">
+                <a href="#home">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SUCCESS TOAST NOTIFICATION -->
+    <div id="toast" class="toast-notification">
+        <div class="toast-content">
+            <i data-lucide="check-circle-2" class="toast-icon"></i>
+            <div class="toast-text">
+                <h5 class="toast-title">Message Sent!</h5>
+                <p class="toast-message">Thank you. I will reply to you as soon as possible.</p>
+            </div>
+        </div>
+        <button id="toastCloseBtn" class="toast-close"><i data-lucide="x"></i></button>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
